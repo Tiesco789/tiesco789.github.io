@@ -1,11 +1,9 @@
 <script setup lang="ts">
-import Header from './components/Header.vue'
+import NavHeader from './components/NavHeader.vue.js'
 </script>
 
 <template>
-    <Header />
+  <NavHeader />
 </template>
 
-<style scoped lang="scss">
-
-</style>
+<style scoped lang="scss"></style>
