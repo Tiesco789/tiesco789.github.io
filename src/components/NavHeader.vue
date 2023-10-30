@@ -8,17 +8,22 @@ import 'remixicon/fonts/remixicon.css'
     </div>
 
     <div class="links">
-      <a href="https://www.github.com/Tiesco789" target="_blank">
-        <i class="ri-github-fill"></i>
-      </a>
-      <a href="https://www.dribbble.com/Franccesco" target="_blank">
-        <i class="ri-dribbble-fill"></i>
-      </a>
+      <a href="">Portifolio</a>
+      <a href="">Prints</a>
+      <a href="">Draws</a>
+      <a href="">Tattoo</a>
+      <a href="">Tapes</a>
+    </div>
+
+    <div class="buttons">
       <a href="https://www.linkedin.com/in/franccesco-bordon" target="_blank">
         <i class="ri-linkedin-fill"></i>
       </a>
       <a href="https://www.behance.com/franccescoantonio" target="_blank">
         <i class="ri-behance-fill"></i>
+      </a>
+      <a href="https://www.dribbble.com/Franccesco" target="_blank">
+        <i class="ri-dribbble-fill"></i>
       </a>
     </div>
   </header>
@@ -32,18 +37,33 @@ header {
   justify-content: space-between;
 
   .links {
+    color: #A8A8B3;
+    font: 800 1rem 'Nunito Sans';
+    align-self: center;
+
+    a {
+      color: #A8A8B3;
+      text-decoration: none;
+      margin: 2.25rem;
+
+      &:hover {
+        color: darkviolet;
+      }
+    }
+  }
+  .buttons {
     a {
       text-decoration: none;
       color: white;
-      padding: 4px;
-      background-color: #27272a;
-      font-size: 2.5rem;
+      padding: 8px;
+      background-color: #1F2729;
+      font-size: 1.5rem;
       border-radius: 4px;
       margin: 8px;
 
       &:hover {
-        background-color: lighten($color: #27272a, $amount: 4);
-        transition: .2s;
+        background-color: darkviolet;
+        transition: .2s background-color ease-in;
       }
     }
   }
