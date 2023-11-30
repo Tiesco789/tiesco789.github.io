@@ -1,6 +1,9 @@
 <script setup lang="ts">
+
 import 'remixicon/fonts/remixicon.css'
+
 </script>
+
 <template>
   <header>
     <div>
